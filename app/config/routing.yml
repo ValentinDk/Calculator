@@ -1,0 +1,7 @@
+calculator:
+    path: /
+    controller: AppBundle:Calculator:index
+
+total:
+    path: /total/{count}
+    controller: AppBundle:Calculator:total
